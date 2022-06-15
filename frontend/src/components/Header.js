@@ -7,12 +7,11 @@ const navbarStyle = {
 const Header = (props) => {
   const { title } = props
   return (
-    <Navbar style={navbarStyle} variant='light'>
+    <Navbar style={navbarStyle} variant="light">
       <Container>
-        <Navbar.Brand href='/'>{title}</Navbar.Brand>
+        <Navbar.Brand href="/">{title}</Navbar.Brand>
       </Container>
     </Navbar>
   )
 }
-
 export default Header
