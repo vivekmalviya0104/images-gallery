@@ -11,7 +11,7 @@ const ImageCard = ({ image, deleteImage }) => {
         <Button
           variant="primary"
           onClick={() => {
-            deleteImage()
+            deleteImage(image.id)
           }}
         >
           Delete
